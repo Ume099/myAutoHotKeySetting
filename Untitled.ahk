@@ -8,17 +8,15 @@ WheelLeft::Send, ^#{Left}
 ; Shift+BackspaceをDeleteに変換
 +Backspace::Send, {Delete}
 
-; 右AltをF13に変換
-RAlt::F13
 
 ; F13を押しながらWを上に変換
-F13 & W::Send {Up}
+F13 & w::Send {blind}{Up}
 
 ; F13を押しながらAを左に変換
-F13 & A::Send {Left}
+F13 & a::Send {blind}{Left}
 
 ; F13を押しながらDを右に変換
-F13 & D::Send {Right}
+F13 & d::Send {blind}{Right}
 
 ; F13を押しながらSを下に変換
-F13 & S::Send {Down}
+F13 & s::Send {blind}{Down}
