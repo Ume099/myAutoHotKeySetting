@@ -1,4 +1,4 @@
-﻿以下のahkスクリプトで、F13を押しながらWで上キーになるスクリプトが実行されません。　理由を教えて下さい。
+﻿
 ; WheelRightをCtrl+Win+Right Arrowに変換
 WheelRight::Send, ^#{Right}
 
